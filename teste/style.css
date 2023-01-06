@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Heebo:wght@300&display=swap');
+body {
+    background-image: url("img/img.jpeg");
+    background-size: cover;
+    font-size: 14px;
+    padding: 0px;
+    width: 100%;
+    font-family: 'Heebo', sans-serif;
+    overflow-x: hidden;
+}  
+#tabela{
+    top: 22px;
+}
+.id{
+    width: 5%;
+}
+h3{
+    color: black;
+    font-weight: bold;
+    font-size: 15px;
+    padding: 2px;
+    color: black;
+    margin-top: 10px;
+    text-align: center;
+}
+.h4contrato{
+    margin-top: 4.1%;
+    margin-left: 6%;
+    position: absolute;
+}
+
+#wrapper {
+    padding: 0px;
+    width: 100%;
+}
+th, td {    
+    border: 1px solid black;
+    padding: 5px;
+    border-collapse: collapse;
+}
+td{
+    cursor: pointer;
+}
+/* tr:hover{
+    background-color: #a9a9a9;
+} */
+#tabela1 {
+    position: absolute;
+    margin-top: 6%;
+    left: 6%;
+    width: 42%;
+    border-collapse: collapse;
+    color: #2E2E2E;
+}
+#tabela1 .hidden_row {
+    display: none;
+}
+input{
+    position: relative;
+    float:right;
+    margin-right: 80px;
+    padding: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+    outline-color: #a9a9a9 ;
+    color: #1C1C1C;
+    font-weight: bold;
+    width: 16%;
+    height: 30px;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+.tabela2{
+    margin-top: 6.9%;
+    left: 55%;
+    width: 42%;
+    border-collapse: collapse;
+    color: #2E2E2E;
+    position: relative;
+}
+.h4nota{
+    margin-top: 4.1%;
+    margin-left: 56%;
+    position: absolute;
+}
+h2{
+    position: absolute;
+    margin-left: 42%;
+    margin-top: 2.4%;
+}
+ .selected{
+    background-color: #a9a9a9;
+  }
+
+.teste{
+    background-color: #E6E6E6;
+}
+
+#cars{
+    width: 10%;
+    position: absolute;
+}
+#submit{
+    margin-top: 10%;
+    /* margin-left: 43%; */
+    position: absolute;
+    width: 136px;
+    background-color: #776e6e;
+    color: #FFF;
+    border: none;
+    border-radius: 20px;
+    height: 40px;
+    cursor: pointer;
+}
+#submit:hover{
+    background-color: #352f2f;
+}
+#btn{
+    width: 136px;
+    background-color: #776e6e;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    height: 25px;
+    cursor: pointer;
+}
+
+
+#btn1{
+    width: 136px;
+    background-color: #776e6e;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    height: 25px;
+    cursor: pointer;
+}
+ #btn1:hover{
+    background-color: #352f2f;
+}
+#btn:hover{
+    background-color: #352f2f;
+}
